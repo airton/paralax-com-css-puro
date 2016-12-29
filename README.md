@@ -1,8 +1,11 @@
-# Elementos de tamanho dinâmico com css puro
+# Efeito paralax com css puro
 
-## Dimensionar os elementos com base nas dimensões da janela de visualização sem javascript
+Dimensionar os elementos com base nas dimensões da janela de visualização sem javascript.
 
-Utilizando as unidades de viewport _vw_ e _vh_
+Utilizando unidades de viewport _vw_ e _vh_
+
+- **vw**: largura da viewport
+- **vh**: altura da viewport
 
 ```css
 section {
