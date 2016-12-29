@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Elementos de tamanho dinâmico com css puro</title>
+	<link href="https://fonts.googleapis.com/css?family=Arima+Madurai:700" rel="stylesheet">
+	<style>
+		* {
+			margin:0;
+			padding:0;
+		}
+
+		body {
+			font-family: 'Arima Madurai', cursive;
+			font-weight: 700;
+		}
+
+		p {
+			margin: 0;
+			font-size: 2rem;
+			padding: 0 5rem;
+			text-shadow: 1px 1px #333;
+			color: #fff;
+		}
+
+		section {
+			width: 100vw;
+			height: 100vh;
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		}
+
+		section:nth-of-type(1) {
+			background-image: url('https://unsplash.it/1200/620?image=855');
+		}
+		section:nth-of-type(2) {
+			background-image: url('https://unsplash.it/1200/620?image=849');
+		}
+		section:nth-of-type(3) {
+			background-image: url('https://unsplash.it/1200/620?image=1033');
+		}
+		section:nth-of-type(4) {
+			background-image: url('https://unsplash.it/1200/620?image=1030');
+		}
+		section:nth-of-type(5) {
+			background-image: url('https://unsplash.it/1200/620?image=1015');
+		}
+		section:nth-of-type(6) {
+			background-image: url('https://unsplash.it/1200/620?image=823');
+		}
+	</style>
+</head>
+<body>
+	<section>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis suscipit unde debitis architecto ducimus sit officiis.</p>
+	</section>
+	<section>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum perferendis sapiente natus blanditiis corporis sint.</p>
+	</section>
+	<section>
+		<p>Consectetur saepe quaerat officia cupiditate eum, placeat ratione libero suscipit, voluptatum enim eius.</p>
+	</section>
+	<section>
+		<p>Laudantium sequi labore ipsum adipisci neque nam quam commodi facere, sapiente quos possimus voluptate delectus culpa magnam!</p>
+	</section>
+	<section>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, tempore.</p>
+	</section>
+	<section>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis iusto, veniam incidunt.</p>
+	</section>
+</body>
+</html>
